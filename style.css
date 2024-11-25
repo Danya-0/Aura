@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    flex-direction: column;
+    font-weight: 900;
+    height: 100vh;
+ }
+ 
+ #header {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+ }
+ 
+ .content:hover {
+    color: #46F4DB;
+ }
+ 
+ .content:active {
+    background: #57D272;
+ }
+ 
+ #menu_button:hover {
+    background-color: #46F4DB;
+    color: black;
+ }
+ 
+ #menu_button:active {
+    background: #57D272;
+ }
+ 
+ .content {
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+ }
+ 
+ #menu {
+    display: flex;
+    width: 100%;
+    height: 80px;
+ }
+ 
+ 
+ #big_div {
+    width: 100%;
+    height: 680px;
+    background-color: rgb(0, 0, 0);
+    background-image: url(stickers_hero.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% + 50px);
+ }
+ 
+ #big_div h1 {
+    color: white;
+    font-size: 3.2rem;
+    padding-top: 160px;
+    padding-left: 320px;
+ }
+ 
+ #menu_content {
+    display: flex;
+    width: 353px;
+    height: 28px;
+    padding-top: 20px;
+    padding-left: 50px;
+    gap: 32px;
+ }
+ 
+ #menu_button {
+    width: 110px;
+    height: 40px;
+    border-radius: 77px;
+    background-color: black;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    font-weight: 900;
+ }
+ 
+ #div_menu_but {
+    display: flex;
+    padding-left: 400px;
+ }
+ 
+ #bd_buttons {
+    display: flex;
+    padding-left: 320px;
+    width: 300px;
+    height: 70px;
+    justify-content: space-between;
+ }
+ 
+ #buy_button {
+    border-radius: 70px;
+    width: 180px;
+    height: 60px;
+    border-color: lightgreen;
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    font-size: large;
+    transition: all 1s ease-in-out;
+    font-weight: 700;
+ }
+ 
+ #SA_button {
+    border-radius: 70px;
+    width: 220px;
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    border-color: lightgreen;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    transition: all 1s ease-in-out;
+    font-weight: 700;
+ }
+ 
+ #buy_button:hover {
+    background: #46F4DB;
+ }
+ 
+ #buy_button:active {
+    background: #57D272;
+ }
+ 
+ #SA_button:hover {
+    background: linear-gradient(180deg, #46F4DB 27.08%, #57D272 100%);
+    color: black;
+ }
+ 
+ #SA_button:active {
+    background: #57D272;
+ }
